@@ -1,3 +1,2 @@
-
-0;10;1c#!/bin/bash
-cp *.html /root/alx-system_engineering-devops
+#!/bin/bash
+cp -n *.html ..

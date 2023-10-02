@@ -1,0 +1,14 @@
+this is a repeated
+this is a repeated line
+root@5705a01a5198:~/alx-system_engineering-devops/0x01-shell_permissions# echo this is a repeated > repeat.txt
+root@5705a01a5198:~/alx-system_engineering-devops/0x01-shell_permissions# echo this is a repeated line >> repeat.txt
+root@5705a01a5198:~/alx-system_engineering-devops/0x01-shell_permissions# uniq repeat.txt
+this is a repeated
+this is a repeated line
+root@5705a01a5198:~/alx-system_engineering-devops/0x01-shell_permissions# cat reapeat.txt
+cat: reapeat.txt: No such file or directory
+root@5705a01a5198:~/alx-system_engineering-devops/0x01-shell_permissions# cat repeat.txt
+this is a repeated
+this is a repeated line
+root@5705a01a5198:~/alx-system_engineering-devops/0x01-shell_permissions#
+this is a repeated
